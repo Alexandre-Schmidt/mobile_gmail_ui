@@ -1,0 +1,16 @@
+nativeWind v4
+https://www.nativewind.dev/v4/overview
+npm install nativewind@^4.0.1 react-native-reanimated tailwindcss
+npx tailwindcss init --> gera o tailwind.config.js
+criar o global.css --> src/styles/global.css
+criar a estrutura de Layout da aplicação, como não tem um app.tsx. Vai ser src/app/_layout.tsx
+configurar o babel.Config.js
+criar o metro.Config.js --> observar o caminho.. aqui usamos o caminho ./src/styles/global.css
+criar a pasta types com arquivo nativewind.d.ts
+
+GestureHandler
+https://docs.expo.dev/versions/latest/sdk/gesture-handler/
+npx expo install react-native-gesture-handler
+
+Drawer Drawer Drawer (menu lateral)
+npx expo install @react-navigation/drawer react-native-gesture-handler react-native-reanimated
